@@ -22,8 +22,15 @@ with the world’s simplest face recognition library. \
 ○ OpenCV - a library of programming functions primarily geared toward real-time
 computer vision.
 
-## To Run:
-In terminal, 
+## Instructions to run:
+1. First download or clone the project
+2. Import the project to your favourit IDE
+3. Create an python enviroment
+4. Install all the packages
+5. Change the mail information
+6. Run the project using the command line or your IDE Run Button
+
+## Run:
 1. python -m venv env
 2. .\env\Scripts\activate
 3. Install below libraries:
