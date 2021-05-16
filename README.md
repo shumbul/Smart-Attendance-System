@@ -12,7 +12,7 @@ operate on these arrays. \
 ○ Pandas - is a fast, powerful, flexible, and easy to use open-source data analysis and
 manipulation tool, built on top of the Python programming language. \
 ○ Haar Cascade - is a machine learning object detection algorithm used to identify objects in
-an image or video and based on the concept of​ features proposed by Paul Viola and Michael
+an image or video and based on the concept of features proposed by Paul Viola and Michael
 Jones in their paper "Rapid Object Detection using a Boosted Cascade of Simple Features" in
 2001. \
 ○ Datetime - It’s a combination of date and time along with the attributes year, month, day,
@@ -21,3 +21,17 @@ hour, minute, second, microsecond, and info. \
 with the world’s simplest face recognition library. \
 ○ OpenCV - a library of programming functions primarily geared toward real-time
 computer vision.
+
+## To Run:
+In terminal, 
+1. python -m venv env
+2. .\env\Scripts\activate
+3. Install below libraries:
+- pip install opencv-contrib-python
+- pip install numpy
+- pip install pandas
+- pip install Pillow
+- pip install pytest-shutil
+- pip install python-csv
+- pip install yagmail
+4. py main.py 
