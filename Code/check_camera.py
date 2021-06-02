@@ -2,10 +2,10 @@ def camer():
     import cv2
 
     # Load the cascade
-    cascade_face = cv2.cascadeClassifier('haarcascade_default.xml')
+    cascade_face = cv2.CascadeClassifier('haarcascade_default.xml')
 
     # To capture video from webcam.
-    cap = cv2.captureVideo(0)
+    cap = cv2.VideoCapture(0)
 
     while True:
         # Read the frame
@@ -15,7 +15,7 @@ def camer():
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
         # Detect the faces
-        faces = cascade_face.multiScale(gray, 1.3, 5, minSize=(30, 30),flags = cv2.CASCADE_SCALE_IMAGE)
+        faces = cascade_face.detectMultiScale(gray, 1.3, 5, minSize=(30, 30),flags = cv2.CASCADE_SCALE_IMAGE)
 
         # Draw the rectangle around each face
         for (a, b, c, d) in faces:
