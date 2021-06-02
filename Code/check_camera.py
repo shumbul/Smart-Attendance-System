@@ -2,7 +2,7 @@ def camer():
     import cv2
 
     # Load the cascade
-    cascade_face = cv2.cascadeClassifier('haarcascade_default.xml')
+    cascade_face = cv2.CascadeClassifier('haarcascade_default.xml')
 
     # To capture video from webcam.
     cap = cv2.VideoCapture(0)
