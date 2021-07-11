@@ -1,4 +1,5 @@
 # Smart Attendance System using Face Detection with Open CV
+
 ### Software Engineering mini project 
 
 ## Team
@@ -42,3 +43,10 @@ computer vision.
 - pip install python-csv
 - pip install yagmail
 4. py main.py 
+
+
+
+
+
+**NOTE: Any modification/additional feature in this project would be appreciated. \
+Send a PR along with output screenshot, to get new the changes merged.**
