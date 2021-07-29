@@ -2,10 +2,6 @@
 
 ### Software Engineering mini project 
 
-## Team
-Shumbul Arifa - 181CO152 - shumbul\
-Keerti Chaudhary - 181CO226 - keerti2001
-
 ## Libraries Used:
 ○ Numpy - could be a library for Python, adding support for multi-dimensional arrays and
 matrices, in conjunction with an enormous assortment of high-level mathematical functions to
@@ -49,4 +45,4 @@ computer vision.
 
 
 **NOTE: Any modification/additional feature in this project would be appreciated. \
-Send a PR along with output screenshot, to get new the changes merged.**
+Send a PR along with output screenshot, to get the new changes merged.**
